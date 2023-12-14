@@ -39,10 +39,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     std::string filename = "C:\\Example.rar";
-
     std::vector<char> rarData = ReadRAR4File(filename);
-
     PrintBufferContents(rarData);
-
     return 0;
 }
